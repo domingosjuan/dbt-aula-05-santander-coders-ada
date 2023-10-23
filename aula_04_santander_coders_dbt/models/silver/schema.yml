@@ -23,7 +23,6 @@ models:
         description: "Valor da Revenda do Produto"
         tests:
           - not_null
-          - relationships
       - name: data_coleta
         description: "Data da Coleta dos Preços"
         tests:
